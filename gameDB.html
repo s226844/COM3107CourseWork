@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Character Glossary</title>
+        <script src="https://digimarketingai.github.io/game-character-database/glossarydb.js"></script>
+    </head>
+    <body>
+        <div id="glossary"></div>
+        <script>
+            GlossaryDB.init('glossary', {
+                title: 'Game Character Glossary',
+                searchPlaceholder: 'Search Character',
+                noResultsText: 'No character found!',
+                showStats: true, 
+                theme: 'dark',
+                columns: ['image', 'name', 'role', 'description'],
+                data: [
+                    {name: 'Mario', role: 'Hero', description: 'Mario (originally known as Mr. Video and Jumpman and also known as Mario Mario or Super Mario)(JP) is a Nintendo video game character and the main character who stars in the long-running and highly successful Super Mario series. He is the mascot character for Nintendo, and is easily considered Nintendo\'s most successful video game character. He and his younger twin brother Luigi are Nintendo\'s most renowned characters; his games have sold over 262 million units worldwide. This and other key factors have led him to become the defining video game character and Nintendo\'s mascot. He was originally created by Shigeru Miyamoto for the arcade video game Donkey Kong.', image: 'https://www.nintendo.com/eu/media/images/10_share_images/portals_3/2x1_SuperMarioHub_image1600w.jpg'},
+                    {name: 'Goomba', role: 'NPC', description: 'Goombas(JP), originally known as Little Goombas,[1] are one of the major species of the Mario series. Since their first game appearance in Super Mario Bros., they have become one of the most iconic members of the Koopa Troop and the entire Mario franchise, appearing in almost every title. Goombas resemble small brown mushrooms and are a fungus-based species like Toads, Amanitas, Spooks, and Shroobs. Goombas are physically weak and are not much of a threat to Mario or Luigi, since a single stomp usually defeats them, although a number of different Goomba variants have emerged throughout the years; however, they do drop hints of being much stronger and more competent than their appearances suggest, as in the case of Captain Goomba. The Goombas, as a collective race, used to be allied with the Mushroom Kingdom. However, most of the Goombas have turned traitorous and joined the Koopa Troop, an organization led by Bowser. In many games, Goombas are the first enemy the player meets. Goombas have two feet and no visible arms.', image: 'https://mario.wiki.gallery/images/thumb/3/33/GoombaMK8.png/200px-GoombaMK8.png'},
+                    {name: 'Luigi', role: 'Sidekick', description: 'Luigi(JP) is \'s younger but taller and thinner twin brother. He made his debut in the Game & Watch game Mario Bros., subsequently appearing in the original arcade game Mario Bros. game as the second player. Since then, he, alongside his older twin brother Mario, have been considered the major mascots of Nintendo. He and Mario are Nintendo\'s most successful video game characters.', image: 'https://ssb.wiki.gallery/images/thumb/6/67/Luigi_SSBB.jpg/375px-Luigi_SSBB.jpg'},
+                    {name: 'Chris Pratt', role: 'Voice Actor', description: 'Mario\'s voice actor in movie', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3h0CGtGIxUxHjNmHD68Qh54NqJrsBjan0CA&s'},
+                ]
+            });
+        </script>
+    </body>
+</html>
