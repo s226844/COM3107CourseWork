@@ -8,7 +8,8 @@ let question=[
     // "What are the admission requirements for international students wishing to study at The Hang Seng University of Hong Kong?",
     "Can you describe the campus facilities available to students at The Hang Seng University of Hong Kong?",
     "Watermelon is ?= ",
-    "What year is this year?"
+    "What year is this year?",
+    "ChatGPT is owned by?"
     // "What support services are provided to students for academic and personal development at The Hang Seng University of Hong Kong?",
     // "How does The Hang Seng University of Hong Kong promote sustainability and environmental awareness on campus?",
     // "What are the university's plans for future development and expansion in terms of academic programs and campus facilities?"
@@ -19,11 +20,12 @@ let answerPrompt=[
     ["Business", "Translation", "Decision Science", "Humanities"],
     ["Very Good", "Good", "Netural", "Bad", "Terrible"],
     ["蜜瓜", "南瓜", "水蜜瓜", "西瓜", "冬瓜"],
-    ["2015", "2026", "2047","2046", "1945"]
+    ["2015", "2026", "2047","2046", "1945"],
+    ["Microsoft (OpenAI)", "Google", "Apple", "Nvidia"]
     // [""]
 ];
 
-let answerList = [0, 1, 1, 3, 1];
+let answerList = [0, 1, 1, 3, 1 ,0];
 
 
 function generateQandA(){
