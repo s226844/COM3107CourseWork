@@ -22,7 +22,6 @@ let answerPrompt=[
     ["蜜瓜", "南瓜", "水蜜瓜", "西瓜", "冬瓜"],
     ["2015", "2026", "2047","2046", "1945"],
     ["Microsoft (OpenAI)", "Google", "Apple", "Nvidia"]
-    // [""]
 ];
 
 let answerList = [0, 1, 1, 3, 1 ,0];
