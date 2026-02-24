@@ -1,0 +1,14 @@
+table{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+th{
+    border: 2px dashed red;
+}
+td{
+    border: 4px outset green;
+}
+#tagLine{
+    color: blue;
+    font-weight: bolder;
+}
