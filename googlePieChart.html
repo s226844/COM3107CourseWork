@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Brand 品牌', 'Market Share % 市場占有率'],
+          ['Apple 蘋果',     19.7],
+          ['Samsung 三星',      19.1],
+          ['Xiaomi 小米',  13.1],
+          ['Vivo 维沃', 8.2],
+        //   ['Oppo',    8.1],
+          ['Other 其他',    31.7]
+        ]);
+
+        var options = {
+          title: 'Mobile Phone Market Share in 2025',
+          is3D: true,
+          colors: ["#A2AAAD","#1428A0","#FF6900","#415FFF","#c242f5"]
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
