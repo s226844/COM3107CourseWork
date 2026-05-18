@@ -318,9 +318,9 @@ function loadGlossaryDB(){
         theme: 'dark',
         columns: ['image', 'name', 'VA', 'description'],
         data: [
-            {name: 'Kasuga Mirai (春日未来)', VA: 'Yamazaki Haruka (山崎はるか)', description: `Cheerful and carefree, she’ll try anything! A straightforward, energetic girl! | 天真爛漫なんでもチャレンジ！ まっすぐ元気な女の子！`, image: './asset/ML/fullSize/Mi02_095.png'},
+            {name: 'Kasuga Mirai (春日未来)', VA: 'Yamazaki Haruka (山崎はるか)', description: `Cheerful and carefree, she’ll try anything! A straightforward, energetic girl! | 天真爛漫なんでもチャレンジ！ まっすぐ元気な女の子！`, image: 'asset/ML/fullSize/Mi02_095.png'},
             {name: 'Mogami Shizuka (最上静香)', VA:`Tadokoro Azusa (田所あずさ)`, description: `Heading straight for the top as an idol. A girl who puts on a brave front but works tirelessly with single-minded dedication. | トップアイドルまでまっすぐに。 強がりながら、ひたむきに頑張る少女`, image: './asset/ML/fullSize/Mi02_097.png'},
-            {name: 'Ibuki Tsubasa (伊吹翼)', VA: `Machico (Machico)`, description: `Aiming for a happy life full of admirers♪ A girl who loves fashion! | めざせモテモテハッピーライフ♪ おしゃれ大好きな女の子！`, image: './asset/ML/fullSize/Mi02_099.png'},
+            {name: 'Ibuki Tsubasa (伊吹翼)', VA: `Machico (Machico)`, description: `Aiming for a happy life full of admirers♪ A girl who loves fashion! | めざせモテモテハッピーライフ♪ おしゃれ大好きな女の子！`, image: '../asset/ML/fullSize/Mi02_099.png'},
             {name: 'Tanaka Kotoha (田中琴葉)', VA:`Taneda Risa (種田梨沙)`, description: `A model student loved by everyone. A beautiful, earnest and devoted idol! | みんなに好かれる優等生。 真面目で一途な美少女アイドル！`, image: './asset/ML/fullSize/Mi02_027.png'},
             {name: 'Shimabara Elena (島原エレナ)', VA:`Kakumoto Asuka (角元明日香)`, description: `Every day is a carnival♪ A blue-eyed beauty who loves physical affection! | 毎日がカーニバル♪ スキンシップが大好きな青い目の美少女！`, image: './asset/ML/fullSize/Mi02_029.png'},
             {name: 'Satake Minako (佐竹美奈子)', VA:`Oozeki Eri (大関英里)`, description: `Generous portions of both cooking and affection♪ A flagship idol who loves looking after others! | 料理も愛情も特盛で♪ お世話が大好きな看板娘アイドル！`, image: './asset/ML/fullSize/Mi02_031.png'},
