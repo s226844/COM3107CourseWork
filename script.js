@@ -21,7 +21,7 @@ let discography = [
         {
             songNameEN: "Suteki na Kiseki",
             songNameJP: "素敵なキセキ",
-            jacket: "./asset/ML/jacket/Mri001.png",
+            jacket: "../asset/ML/jacket/Mri001.png",
             spotify: "https://open.spotify.com/track/7cLygNHUCosY98igc5zxZZ",
             youtube: "https://music.youtube.com/watch?v=QNqNXKXir9E",
             iTunes: "https://music.apple.com/us/album/suteki-na-kiseki/1719936095?i=1719936100"
@@ -30,7 +30,7 @@ let discography = [
         {
             songNameEN: "Mirai Hikou",
             songNameJP: "未来飛行",
-            jacket: "./asset/ML/jacket/Mri002.png",
+            jacket: "../asset/ML/jacket/Mri002.png",
             spotify: "https://open.spotify.com/track/7ihZqv40nxJfBRDQiCeiCN",
             youtube: "https://music.youtube.com/watch?v=k_-cxBHMIFo&list=OLAK5uy_lLTcP0kxqOkPtaAzrKCg9Zi14Ff3m0Ab4",
             iTunes: "https://music.apple.com/jp/song/%E6%9C%AA%E6%9D%A5%E9%A3%9B%E8%A1%8C/1718503369"
@@ -39,7 +39,7 @@ let discography = [
         {
             songNameEN: "Miraikei Dreamer",
             songNameJP: "未来系ドリーマ",
-            jacket: "./asset/ML/jacket/Mri003.png",
+            jacket: "../asset/ML/jacket/Mri003.png",
             spotify: "https://open.spotify.com/track/6U65AxjJPG9y1hOYaN7G3f",
             youtube: "https://music.youtube.com/watch?v=NclM40X9U-s&list=OLAK5uy_lLTcP0kxqOkPtaAzrKCg9Zi14Ff3m0Ab4",
             iTunes: "https://music.apple.com/tw/song/%E6%9C%AA%E6%9D%A5%E7%B3%BB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1720336486"
@@ -50,7 +50,7 @@ let discography = [
         {
             songNameEN: "Precious Grain",
             songNameJP: "Precious Grain",
-            jacket: "./asset/ML/jacket/Shi001.png",
+            jacket: "../asset/ML/jacket/Shi001.png",
             spotify: "https://open.spotify.com/track/7tRxBAiPkFOR18Kxk0afxn",
             youtube: "https://music.youtube.com/watch?v=EKt7Ngdn3vQ",
             iTunes: "https://music.apple.com/jp/album/precious-grain/1718502609?i=1718502616"
@@ -59,7 +59,7 @@ let discography = [
         {
             songNameEN: "Catch my dream",
             songNameJP: "Catch My Dream",
-            jacket: "./asset/ML/jacket/Shi002.png",
+            jacket: "../asset/ML/jacket/Shi002.png",
             spotify: "https://open.spotify.com/track/6ClAkRafg3XE1hhYlVdBnh",
             youtube: "https://music.apple.com/jp/album/catch-my-dream/1718503136?i=1718503142",
             iTunes: "https://music.apple.com/jp/album/catch-my-dream/1718503136?i=1718503142"
@@ -68,7 +68,7 @@ let discography = [
         {
             songNameEN: "SING MY SONG",
             songNameJP: "SING MY SONG",
-            jacket: "./asset/ML/jacket/Shi003.png",
+            jacket: "../asset/ML/jacket/Shi003.png",
             spotify: "https://open.spotify.com/track/1jdq8Q283VASBufqUWWldk",
             youtube: "https://music.youtube.com/watch?v=Rs-hgpJzhmo",
             iTunes: "https://music.apple.com/jp/album/sing-my-song/1718881135?i=1718881140"
