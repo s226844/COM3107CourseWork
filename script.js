@@ -160,7 +160,7 @@ let discography = [
         {
             songNameEN: "Best Smile",
             songNameJP: "スマイルいちばん",
-            jacket: "./asset/jacket/Mnk001.png",
+            jacket: "./asset/jacket/mnk001.png",
             spotify: "https://open.spotify.com/track/6j8VnDZOvPsV5Broiu0NhY",
             youtube: "https://music.youtube.com/watch?v=uDVa6jMMaZg",
             iTunes: "https://music.apple.com/jp/album/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%84%E3%81%A1%E3%81%B0%E3%82%93/1718726182?i=1718726184"
@@ -168,7 +168,7 @@ let discography = [
         {
             songNameEN: "SUPER SIZE LOVE!!",
             songNameJP: "SUPER SIZE LOVE!!",
-            jacket: "./asset/jacket/Mnk002.png",
+            jacket: "./asset/jacket/mnk002.png",
             spotify: "https://open.spotify.com/track/02zL1ZXfnVzylZFfnVNo5R",
             youtube: "https://music.youtube.com/watch?v=La-fRvgU5ow",
             iTunes: "https://music.apple.com/jp/album/super-size-love/1725063027?i=1725063034"
@@ -176,7 +176,7 @@ let discography = [
         {
             songNameEN: "Extreme Filling Complete Meal",
             songNameJP: "満腹至極フルコォス",
-            jacket: "./asset/jacket/Mnk003.png",
+            jacket: "./asset/jacket/mnk003.png",
             spotify: "https://open.spotify.com/track/6hitfW7t0DKXiLs5d5TuIC",
             youtube: "https://music.youtube.com/watch?v=hIRLBhiJ2Bs",
             iTunes: "https://music.apple.com/jp/album/%E6%BA%80%E8%85%B9%E8%87%B3%E6%A5%B5%E3%83%95%E3%83%AB%E3%82%B3%E3%82%A9%E3%82%B9/1718881135?i=1718881137"
@@ -184,7 +184,7 @@ let discography = [
         {
             songNameEN: "Would You Like to Warm It Up?",
             songNameJP: "あたためますか？",
-            jacket: "./asset/jacket/Mnk004.png",
+            jacket: "./asset/jacket/mnk004.png",
             spotify: "https://open.spotify.com/track/29Al70ggRhPNEP2oRomRXR",
             youtube: "https://music.youtube.com/watch?v=nZakvjIIzR0",
             iTunes: "https://music.apple.com/jp/album/%E3%81%82%E3%81%9F%E3%81%9F%E3%82%81%E3%81%BE%E3%81%99%E3%81%8B/1718493130?i=1718493134"
