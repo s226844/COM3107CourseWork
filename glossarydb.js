@@ -182,7 +182,7 @@ const GlossaryDB = (function() {
                 font-gdb-card-subtitle: 14px;
                 margin-bottom: 12px;
                 font-weight: 600;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 letter-spacing: 0.5px;
             }
             .gdb-card-text {
@@ -234,7 +234,7 @@ const GlossaryDB = (function() {
                 color: #ccc;
                 margin-top: 8px;
                 font-size: 1.1rem;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 letter-spacing: 1px;
             }
             .gdb-modal-text {
@@ -332,7 +332,8 @@ const GlossaryDB = (function() {
         injectStyles(settings.theme);
 
         const statsHtml = settings.showStats 
-            ? `<div class="gdb-stats">${settings.data.length} items</div>` 
+            ? `<div class="gdb-stats">${settings.data.length} characters</div>
+               <div class="gdb-stats">共有${settings.data.length}名各角色</div>` 
             : '';
 
         container.innerHTML = `
@@ -356,9 +357,9 @@ const GlossaryDB = (function() {
                     <div class="gdb-modal-text"></div>
                     <div class="modal-body gdb-modal-text">
                     <p>Solo Discography : </p>
-                    <button type="button" class="btn btn-primary" id="spotify" onlclick="swapModal('spotify')">Spotify  <i class="fa-brands fa-spotify"></i></button>
-                    <button type="button" class="btn btn-primary" id="youtube" onlclick="swapModal('youtube')">Youtube  <i class="fa-brands fa-youtube"></i></button>
-                    <button type="button" class="btn btn-primary" id="iTunes" onlclick="swapModal('itunes')">iTunes  <i class="fa-brands fa-itunes"></i></button>
+                    <a href="#songList"><button type="button" class="btn btn-primary" id="spotify" onlclick="swapModal('spotify')">Spotify  <i class="fa-brands fa-spotify"></i></button></a>
+                    <a href="#songList"><button type="button" class="btn btn-primary" id="youtube" onlclick="swapModal('youtube')">Youtube  <i class="fa-brands fa-youtube"></i></button></a>
+                    <a href="#songList"><button type="button" class="btn btn-primary" id="iTunes" onlclick="swapModal('itunes')">iTunes  <i class="fa-brands fa-itunes"></i></button></a>
                   </div>
                 </div>
             </div>
@@ -384,13 +385,13 @@ const GlossaryDB = (function() {
             
             const imgSrc = item[imgCol] || '';
             const title = item[titleCol] || '';
-            const subtitle = item[subtitleCol] || '';
+            const subtitle = `Voiced by: ` + item[subtitleCol] || '';
             const description = item[descCol] || '';
             // const type = item[typeCol] || '';
             // const agency = item[agencyCol] || '';
 
             card.innerHTML = `
-                <img class="gdb-avatar" 
+                <img class="gdb-avatar"
                      src="${imgSrc || createPlaceholder(title || '?', 130)}" 
                      alt="${escapeHtml(title)}">
                 <div class="gdb-card-title">${escapeHtml(title)}</div>
@@ -456,8 +457,8 @@ const GlossaryDB = (function() {
             noResults.classList.toggle('show', found === 0);
             if (statsEl) {
                 statsEl.textContent = term 
-                    ? `${found} of ${settings.data.length} items` 
-                    : `${settings.data.length} items`;
+                    ? `${found} of ${settings.data.length} characters` 
+                    : `${settings.data.length} characters`;
             }
         }
 

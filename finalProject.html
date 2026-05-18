@@ -10,14 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- <script src="https://digimarketingai.github.io/game-character-database/glossarydb.js"></script> -->
-    <title>Final Project</title>
+    <title>Final Project 期未專題</title>
 </head>
 <body theme="blue" onload="loadGlossaryDB()">
 
-    <nav pn="nav" brand="COM3107|finalProject">
-        <a to="home" icon="home">landing</a>
-        <a to="about" icon="user">Characters</a>
-        <a to="Discography" icon="music">Discography</a>
+    <nav pn="nav" brand="TRA3107|finalProject期未專題">
+        <a to="home" icon="home">landing 首頁</a>
+        <a to="about" icon="user">Characters 角色</a>
+        <a to="Discography" icon="music">Discography 歌曲總表</a>
     </nav>
     
     <section pn="page" name="home" active>
@@ -26,16 +26,16 @@
     
     <section pn="page" name="about">
         <div id="glossary"></div>
-        <div pn="heading">Song List</div>
+        <div pn="heading" id="songList">Song List 歌曲列表</div>
         <div pn="card" id="SongListCard">
             <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Song Jacket</th>
-                    <th scope="col">Song Name (EN)</th>
-                    <th scope="col">Song Name (JP)</th>
-                    <th scope="col">Link</th>
+                    <th scope="col">Song Jacket 封面插畫</th>
+                    <th scope="col">Song Name (EN) 歌名(英語)</th>
+                    <th scope="col">Song Name (JP) 歌名(日語)</th>
+                    <th scope="col">Link 購買 / 串流連結</th>
                   </tr>
                 </thead>
                 <tbody id="tBody">
@@ -45,12 +45,30 @@
     </section>
 
     <section pn="page" name="Discography">
-        <div pn="heading">About Us</div>
-        <div pn="card">
+        <div pn="heading">Full Song List 歌曲總表</div>
+        <div pn="platformSelection">
+            <button type="button" class="btn btn-primary" id="spotify" onclick="loadFullDiscography('spotify')">Spotify  <i class="fa-brands fa-spotify"></i></button>
+            <button type="button" class="btn btn-primary" id="youtube" onclick="loadFullDiscography('youtube')">Youtube  <i class="fa-brands fa-youtube"></i></button>
+            <button type="button" class="btn btn-primary" id="iTunes" onclick="loadFullDiscography('itunes')">iTunes  <i class="fa-brands fa-itunes"></i></button>
+        </div>
+        <div pn="card" id="fullSongList">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Song Jacket 封面插畫</th>
+                    <th scope="col">Song Name (EN) 歌名(英語)</th>
+                    <th scope="col">Song Name (JP) 歌名(日語)</th>
+                    <th scope="col">Link 購買 / 串流連結</th>
+                    <th scope="col">Sung By 歌手</th>
+                  </tr>
+                </thead>
+                <tbody id="tFullBody">
+                </tbody>
+              </table>
         </div>
     </section>
     
-    <div pn="footer">© 2026 My Site</div>
     
     </body>
 </html>
